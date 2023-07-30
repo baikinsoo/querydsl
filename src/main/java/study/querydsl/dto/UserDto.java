@@ -6,13 +6,13 @@ import lombok.Data;
 public class UserDto {
 
     private String name;
-    private int age;
+    private int userage;
 
     public UserDto() {
     }
 
-    public UserDto(String name, int age) {
+    public UserDto(String name, int userage) {
         this.name = name;
-        this.age = age;
+        this.userage = userage;
     }
 }
